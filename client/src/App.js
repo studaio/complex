@@ -10,18 +10,10 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p></p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Link to="/">Home</Link>
-          <Link to="/otherpage">Other Page</Link>
+            Fibonacci Calculator
+          <div>
+            <Link to="/" className="App-link">Home</Link>       <Link to="/otherpage" className="App-link">Other Page</Link>
+          </div>
         </header>
         <div>
           <Route exact path="/" component={Fib} />

@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 const OtherPage = () => {
   return (
     <div>
-      Im some other page!
-      <Link to="/">Go back home</Link>
+      <p></p>
+      I'm the other page!
+      <p></p>
+      <Link to="/" className="App-link-2">Go back home</Link>
     </div>
   );
 };
