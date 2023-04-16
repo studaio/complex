@@ -44,3 +44,6 @@ services:
     volumes:
       - /home/node/app/node_modules
       - ./worker:/home/node/app
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
