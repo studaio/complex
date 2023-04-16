@@ -32,6 +32,8 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile.dev
+    environment:
+      - WDS_SOCKET_PORT=0
     volumes:
       - /home/node/app/node_modules
       - ./client:/home/node/app
